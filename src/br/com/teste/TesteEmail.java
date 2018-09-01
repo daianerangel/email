@@ -17,7 +17,7 @@ public class TesteEmail {
 	public static void main(String[] args) {
 	
 		try {
-			GoogleMail.Send("daianejessik2011", "", "daiane-jessik@hotmail.com", "oi", "teste");
+			GoogleMail.Send("blaaaa", "", "bla@bla.com", "oi", "teste");
 		} catch (MessagingException e) {
 			e.printStackTrace();
 		}
